@@ -22,7 +22,7 @@ When planning a trip, travelers often need to compare hotel options across diffe
 ## Table of Contents
 
 1. [About the Project](#about-the-project)
-2. [Workflow Description](#workflow description)
+2. [Workflow Description](#workflow-description)
 3. [Getting Started](#getting-started)
 4. [Features](#features)
 5. [Contributing](#contributing)
