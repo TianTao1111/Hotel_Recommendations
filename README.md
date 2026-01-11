@@ -7,6 +7,9 @@ Quick Overview
 -  Transformation of raw data into analysis-ready format
 -  Visualization and recommendation output
 
+Motivations:
+When planning a trip, travelers often need to compare hotel options across different platforms while also considering contextual factors such as weather. This project aims to support travel planning by automatically gathering relevant data and presenting strucutred recommendations.
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/cajjster/lunch_box_planner.svg)](https://github.com/cajjster/lunch_box_planner/stargazers)
 [![Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://your-live-demo-link.com)
@@ -25,12 +28,8 @@ Quick Overview
 
 ## About the Project
 
-Briefly explain:
--  Input the desired destination and date;
--  Extract hotel data from the booking.com website;
--  Extract weather data from weather API;
--  Web scraping knowledge + API connection knowledge are used;
--  Data Visualization.
+Overview:
+This project implements a data-driven workflow that collects hotel informaiton from online sources and provides hotel recommendations based on user inputs such as destination and travel dates. The project focuses on real-world ata collection, cleaning, and preparation, using web scraping and external APIs.
 
 ### Screenshots
 
