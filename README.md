@@ -1,5 +1,5 @@
 # Travelling Recommendation APP
-### Quick Overview:
+### Quick Overview
 
 -  🌍 User-driven input (destination, travel dates)
 -  🕷️ Data ingestion via web scraping (Booking.com)
@@ -8,7 +8,8 @@
 -  📊 Visualization and recommendation output
 
 
-### Motivations:
+
+### Motivations
 
 When planning a trip, travelers often need to compare hotel options across different platforms while also considering contextual factors such as weather. This project aims to support travel planning by automatically gathering relevant data and presenting strucutred recommendations.
 
@@ -31,7 +32,7 @@ When planning a trip, travelers often need to compare hotel options across diffe
 
 ## About the Project
 
-### Overview:
+### Overview
 
 This project implements a data-driven workflow that collects hotel informaiton from online sources and provides hotel recommendations based on user inputs such as destination and travel dates. The project focuses on real-world ata collection, cleaning, and preparation, using web scraping and external APIs.
 
