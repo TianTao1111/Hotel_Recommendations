@@ -1,5 +1,5 @@
 # Travelling Recommendation APP
-Quick Overview
+Quick Overview:
 
 -  User-driven input (destination, travel dates)
 -  Data ingestion via web scraping (Booking.com) and external weather API
@@ -8,6 +8,7 @@ Quick Overview
 -  Visualization and recommendation output
 
 Motivations:
+
 When planning a trip, travelers often need to compare hotel options across different platforms while also considering contextual factors such as weather. This project aims to support travel planning by automatically gathering relevant data and presenting strucutred recommendations.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
