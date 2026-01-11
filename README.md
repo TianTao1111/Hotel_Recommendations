@@ -109,7 +109,7 @@ Weather information is included as additional context for travel planning.
 ## Features
 
 This project demonstrates:
-- 👩‍💻 User friendly interface;
+- 👩‍💻 User friendly interface
 - 📊 Working with multiple data sources (web scraping and APIs)
 - ⚡ Handling messy data
 - 🔐 Clean and structuring data for downstream use
