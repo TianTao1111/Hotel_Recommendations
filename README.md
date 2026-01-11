@@ -1,11 +1,13 @@
 # Travelling Recommendation APP
 Quick Overview:
 
--  User-driven input (destination, travel dates)
--  Data ingestion via web scraping (Booking.com) and external weather API
--  Data cleaning and structuring using Python and pandas
--  Transformation of raw data into analysis-ready format
--  Visualization and recommendation output
+-  🌍 User-driven input (destination, travel dates)
+-  🕷️ Data ingestion via web scraping (Booking.com)
+-  🌦️ Retrieve weather data via external weather API  
+-  🧹 Data cleaning and structuring using Python and pandas
+-  📊 Visualization and recommendation output
+
+
 
 Motivations:
 
@@ -20,10 +22,11 @@ When planning a trip, travelers often need to compare hotel options across diffe
 ## Table of Contents
 
 1. [About the Project](#about-the-project)
-2. [Getting Started](#getting-started)
-3. [Features](#features)
-4. [Contributing](#contributing)
-5. [License](#license)
+2. [Workflow Description](#workflow description)
+3. [Getting Started](#getting-started)
+4. [Features](#features)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ---
 
@@ -45,6 +48,65 @@ Weather forecasts:
 
 
 ---
+
+## Workflow Description
+
+### 1. User Input
+The workflow begins with user-defined parameters:
+- Travel destination
+- Check-in and check-out dates
+- Number of adults and children
+These inputs control wich data sources are queried and how the results are filtered.
+
+
+### 2. Data Collection
+Data is collected from multiple external sources:
+- Web scraping is used to extract hotel information (e.g. price, rating, distance from centrum) from online booking platforms.
+- External APIs are used to retrieve weather information for the selected destination.
+The collected data is raw and heterogeneours, reflecting real-wrold conditions.
+
+
+### 3. Data Cleaning and Preparation
+Using Python and pandas, the raw data is processed to make it usable:
+- Selecting relevant attributes from scraped data
+- Handling missing or inconsisten values
+- Converting data into a structured tabular format
+This step ensures that the daga can be reliably used for analysis and recommendation.
+
+
+### 4. Data Transformation
+The cleaned data is transformed into analysis-ready form:
+- Structruing hotel features for comparsion
+- Preparing derived values used in recommendation logic
+- Organizing data for visualization
+Transformation logic is implemented in a transparent and interpretable way.
+
+
+### 5. Recommendation and Output
+Based on user inputs and processed data:
+- Hotels are filtered and compared using predefined criteria
+- Recommendation results are generated
+- Visual outputs are produced to support user decision-making
+Weather information is included as additional context for travel planning.
+
+
+## Technology used
+- Python
+- Pandas, Numpy
+- Web scraping libraries
+- External APIs
+- Data visualzation libraries
+
+
+## Features
+
+This project demonstrates:
+- 👩‍💻 User friendly interface;
+- 📊 Working with multiple data sources (web scraping and APIs)
+- ⚡ Handling messy data
+- 🔐 Clean and structuring data for downstream use
+- 🌍 Apply data logic in a user-oriented recommendation scenario
+This project is implemented as anotebook-based workdflow and emphasizes clarity and correctness over production deployment.
 
 ## Getting Started
 Step-by-step instructions to get a local copy running:
@@ -71,14 +133,7 @@ cd GitHub/Hotel_recommendation
 pip install load_dotenv
 ```
 
-## Features
 
-Highlight key features:
-- 👩‍💻 User friendly interface;
-- 📊 Interactive visualizations
-- ⚡ Real-time updates
-- 🔐 Secure authentication
-- 🌍 Localization support
 
 ## Contributing
 
