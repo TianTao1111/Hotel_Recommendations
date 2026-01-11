@@ -35,7 +35,7 @@ When planning a trip, travelers often need to compare hotel options across diffe
 Overview:
 This project implements a data-driven workflow that collects hotel informaiton from online sources and provides hotel recommendations based on user inputs such as destination and travel dates. The project focuses on real-world ata collection, cleaning, and preparation, using web scraping and external APIs.
 
-### Screenshots
+### Effects demonstration
 
 APP GUI starting:
 ![image](https://github.com/user-attachments/assets/f7aef480-875b-421a-94a6-0513091a0747)
