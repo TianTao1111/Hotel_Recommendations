@@ -37,19 +37,19 @@ This project implements a data-driven workflow that collects hotel informaiton f
 
 ### Effects demonstration
 
-#### APP GUI starting:
+#### 📓APP GUI starting:
 
 ![image](https://github.com/user-attachments/assets/f7aef480-875b-421a-94a6-0513091a0747)
 
 
 
-#### Hotel Recommendations:
+#### 🏨Hotel Recommendations:
 
 ![image](https://github.com/user-attachments/assets/fed77ba8-13e5-4c7f-b1a3-b5a6b787ad62)
 
 
 
-#### Weather forecasts:
+#### 🌧️Weather forecasts:
 
 ![image](https://github.com/user-attachments/assets/038250a9-47a0-4fff-b647-c88b59c3e9d5)
 
