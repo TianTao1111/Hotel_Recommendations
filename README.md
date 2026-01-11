@@ -11,7 +11,7 @@
 
 ### Motivations
 
-When planning a trip, travelers often need to compare hotel options across different platforms while also considering contextual factors such as weather. This project aims to support travel planning by automatically gathering relevant data and presenting strucutred recommendations.
+When planning a trip, travelers often need to compare hotel options from various perspectives, while also considering contextual factors such as weather. This project aims to support travel planning by automatically gathering relevant data and presenting strucutred recommendations.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/cajjster/lunch_box_planner.svg)](https://github.com/cajjster/lunch_box_planner/stargazers)
