@@ -1,5 +1,11 @@
 # Travelling Recommendation APP
-****Provide Hotel Recommendations & Weather Forecasts for holiday destination****
+Quick Overview
+
+-  User-driven input (destination, travel dates)
+-  Data ingestion via web scraping (Booking.com) and external weather API
+-  Data cleaning and structuring using Python and pandas
+-  Transformation of raw data into analysis-ready format
+-  Visualization and recommendation output
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/cajjster/lunch_box_planner.svg)](https://github.com/cajjster/lunch_box_planner/stargazers)
