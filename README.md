@@ -64,13 +64,15 @@ The workflow begins with user-defined parameters:
 - Travel destination
 - Check-in and check-out dates
 - Number of adults and children
-These inputs control wich data sources are queried and how the results are filtered.
+- 
+These inputs control which data sources are queried and how the results are filtered.
 
 
 ### 2. Data Collection
 Data is collected from multiple external sources:
 - Web scraping is used to extract hotel information (e.g. price, rating, distance from centrum) from online booking platforms.
 - External APIs are used to retrieve weather information for the selected destination.
+  
 The collected data is raw and heterogeneours, reflecting real-wrold conditions.
 
 
@@ -79,6 +81,7 @@ Using Python and pandas, the raw data is processed to make it usable:
 - Selecting relevant attributes from scraped data
 - Handling missing or inconsisten values
 - Converting data into a structured tabular format
+  
 This step ensures that the daga can be reliably used for analysis and recommendation.
 
 
@@ -87,6 +90,7 @@ The cleaned data is transformed into analysis-ready form:
 - Structruing hotel features for comparsion
 - Preparing derived values used in recommendation logic
 - Organizing data for visualization
+  
 Transformation logic is implemented in a transparent and interpretable way.
 
 
@@ -95,6 +99,7 @@ Based on user inputs and processed data:
 - Hotels are filtered and compared using predefined criteria
 - Recommendation results are generated
 - Visual outputs are produced to support user decision-making
+  
 Weather information is included as additional context for travel planning.
 
 
@@ -114,6 +119,7 @@ This project demonstrates:
 - ⚡ Handling messy data
 - 🔐 Clean and structuring data for downstream use
 - 🌍 Apply data logic in a user-oriented recommendation scenario
+  
 This project is implemented as anotebook-based workdflow and emphasizes clarity and correctness over production deployment.
 
 ## Getting Started
