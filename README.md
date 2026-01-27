@@ -24,7 +24,7 @@ When planning a trip, travelers often need to compare hotel options from various
 1. [About the Project](#about-the-project)
 2. [Workflow Description](#workflow-description)
 3. [Getting Started](#getting-started)
-4. [Features](#features)
+4. [Technology used & Features](#technology-used&#features)
 5. [Contributing](#contributing)
 6. [License](#license)
 
