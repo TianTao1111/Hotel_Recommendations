@@ -64,7 +64,7 @@ The workflow begins with user-defined parameters:
 - Travel destination
 - Check-in and check-out dates
 - Number of adults and children
-- 
+  
 These inputs control which data sources are queried and how the results are filtered.
 
 
