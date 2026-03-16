@@ -94,7 +94,7 @@ The cleaned data is transformed into analysis-ready form:
 Transformation logic is implemented in a transparent and interpretable way.
 
 
-### 5. Recommendation and Output
+### 5. Exploratory analysis
 Based on user inputs and processed data:
 - Hotels are filtered and compared using predefined criteria
 - Recommendation results are generated
