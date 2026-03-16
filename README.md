@@ -1,4 +1,4 @@
-# Travelling Recommendation APP
+# Hotel Recommendation Data Analysis
 ### Quick Overview
 
 -  🌍 User-driven input (destination, travel dates)
@@ -94,7 +94,7 @@ The cleaned data is transformed into analysis-ready form:
 Transformation logic is implemented in a transparent and interpretable way.
 
 
-### 5. Exploratory analysis
+### 5. Exploratory Analysis
 Based on user inputs and processed data:
 - Hotels are filtered and compared using predefined criteria
 - Recommendation results are generated
